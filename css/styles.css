@@ -1447,7 +1447,8 @@ p {
 /*modal component for search*/
 .modal {
     display: none;
-    justify-content: center;/*dont remove flex properties*/
+    justify-content: center;
+    /*dont remove flex properties*/
     align-items: flex-start;
     position: fixed;
     padding: 1rem;
@@ -1670,6 +1671,7 @@ p {
 /*header component media queries*/
 @media screen and (min-width:768px) {
     .header {
+        padding: 0 2rem;
         margin-bottom: 9.6rem;
     }
 }
@@ -1685,6 +1687,6 @@ p {
 /*main-container*/
 .main-container {
     background-color: #F9F9FF;
-    width:100%;
+    width: 100%;
     overflow: hidden;
 }
