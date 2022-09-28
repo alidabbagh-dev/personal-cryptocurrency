@@ -1447,7 +1447,7 @@ p {
 /*modal component for search*/
 .modal {
     display: none;
-    justify-content: center;
+    justify-content: center;/*dont remove flex properties*/
     align-items: flex-start;
     position: fixed;
     padding: 1rem;
@@ -1492,8 +1492,6 @@ p {
     display: flex;
     flex-direction: column;
 }
-
-
 
 .navbar__images {
     display: flex;
@@ -1665,7 +1663,7 @@ p {
 /*header component*/
 .header {
     background: linear-gradient(227.81deg, #1100D5 13.83%, #000033 101.65%);
-    padding: 0 2rem;
+    padding: 0 1rem 0 2rem;
     margin-bottom: 3.7rem;
 }
 
