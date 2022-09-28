@@ -1365,7 +1365,7 @@ p {
 }
 
 /*icon and copyright together*/
-.footer__content {
+.footer__header {
     color: var(--color-white);
     margin-bottom: 4rem;
 }
