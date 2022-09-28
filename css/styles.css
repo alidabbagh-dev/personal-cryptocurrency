@@ -1664,7 +1664,7 @@ p {
 /*header component*/
 .header {
     background: linear-gradient(227.81deg, #1100D5 13.83%, #000033 101.65%);
-    padding: 0 1rem 0 2rem;
+    padding: 0 1.5rem 0 2rem;
     margin-bottom: 3.7rem;
 }
 
